@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class WorldGenerator : MonoBehaviour
 {
     [HideInInspector]public float minX, maxX, minY, maxY;
-    public GameObject floorPrefab, wallPrefab, tilePrefab;
+    public GameObject floorPrefab, wallPrefab, tilePrefab, exitPrefab;
     public GameObject[] RandomItems, RandomMons;
     LayerMask floorMask, wallMask;
     [Range(0, 100)]public int itemSpawnChance;
@@ -61,6 +61,7 @@ public class WorldGenerator : MonoBehaviour
             goTile.transform.SetParent(transform);
         }
         StartCoroutine(DelayProgress());
+
 
     }
 
@@ -128,12 +129,26 @@ public class WorldGenerator : MonoBehaviour
         }
     }
 
+    void ExitDoorway()
+    {
+        Vector3 doorPos = floorList[floorList.Count - 1];
+
+       
+        
+            GameObject goDoor = Instantiate(exitPrefab, doorPos, Quaternion.identity) as GameObject;
+            goDoor.name = exitPrefab.name;
+            goDoor.transform.SetParent(transform);
+        
+    }
+
     IEnumerator DelayProgress()
     {
         while (FindObjectsOfType<SpawnDaTiles>().Length > 0)
         {
             yield return null;
         }
+
+        ExitDoorway();
 
         Vector2 hitSize = Vector2.one * 0.8f;
 
@@ -154,11 +169,12 @@ public class WorldGenerator : MonoBehaviour
 
                         RandomItemss(hitFloor, hitTop, hitRight, hitBottom, hitLeft);
                         RandomVegamons(hitFloor, hitTop, hitRight, hitBottom, hitLeft);
-
+                        
                     }
                 }
             }
         }
     }
+
 
 }
