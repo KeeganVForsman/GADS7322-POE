@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -9,7 +10,7 @@ public class Enemy : MonoBehaviour
     private float distance;
     public float sight;
 
-    void Start()
+    void Start() 
     {
 
     }
@@ -17,6 +18,7 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(player.transform.position);
         distance = Vector2.Distance(transform.position, player.transform.position);
         //Vector2 direction = player.transform.position - transform.position;        
 

@@ -11,6 +11,8 @@ public class Player_Move : MonoBehaviour
     bool isMoving;
     public float speed;
 
+    
+
     void Start()
     {
         obstacleMask = LayerMask.GetMask("Wall", "Enemy");
@@ -36,6 +38,7 @@ public class Player_Move : MonoBehaviour
             }
             if (!isMoving)
             {
+                //Debug.Log(transform.position);
                 if (Mathf.Abs(horz) > 0)
                 {
                     targetPos = new Vector2(transform.position.x + horz, transform.position.y);
