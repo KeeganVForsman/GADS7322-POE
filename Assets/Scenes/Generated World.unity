@@ -168,7 +168,7 @@ MonoBehaviour:
   - {fileID: 2719130841007960995, guid: 7de79240459cc8848bfefc3f49468bb3, type: 3}
   - {fileID: 6507989301551564752, guid: 9a339bde08e922b4da43e5146ca14513, type: 3}
   itemSpawnChance: 31
-  monSpawnChance: 24
+  monSpawnChance: 18
   totalFloorCount: 2000
 --- !u!4 &528631758
 Transform:
