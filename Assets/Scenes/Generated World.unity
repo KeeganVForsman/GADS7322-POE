@@ -203,6 +203,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!4 &704382951 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3445331002201261973, guid: 1ba92ef5d362e074ea777d1696e88655, type: 3}
+  m_PrefabInstance: {fileID: 3445331002843775094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &704382952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704382946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5c855b4570c43429de1444792947f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shotTimer: 0.4
+  playerShot: {fileID: 6998994377692339215, guid: 98b33049dcd9ca74f86d97bebd81f733, type: 3}
+  shotParent: {fileID: 704382951}
 --- !u!1 &1127751007
 GameObject:
   m_ObjectHideFlags: 0
