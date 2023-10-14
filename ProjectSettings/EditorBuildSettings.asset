@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: 2343f71aad51f8e46ac2be7c4187a6b6
   - enabled: 1
-    path: Assets/Scenes/Generated World.unity
+    path: Assets/Scenes/Level 1/Generated World.unity
     guid: 646bdb1e125b37f46b6a794327b41273
   - enabled: 1
     path: Assets/Scenes/Death.unity
