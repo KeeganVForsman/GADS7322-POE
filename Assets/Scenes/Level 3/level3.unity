@@ -156,8 +156,8 @@ MonoBehaviour:
   maxX: 0
   minY: 0
   maxY: 0
-  floorPrefab: {fileID: 5457364876280762990, guid: 5b37f265089ae4c4c973a653ca208805, type: 3}
-  wallPrefab: {fileID: 7515452808606145742, guid: 85e76794b435f5e4aae6c44700b8f9d0, type: 3}
+  floorPrefab: {fileID: 5402437295947925397, guid: b3344c91c66e72c41bb328a0c0a827b9, type: 3}
+  wallPrefab: {fileID: 7189313728302005944, guid: 7e2b012698a16bf49ad6bd597bcf854d, type: 3}
   tilePrefab: {fileID: 2181985133992815011, guid: 9e6d46885e623624683522004e3c5b7f, type: 3}
   exitPrefab: {fileID: 3745283664331189015, guid: 818e0b621ef234b4d9032061a576c988, type: 3}
   RandomItems:
