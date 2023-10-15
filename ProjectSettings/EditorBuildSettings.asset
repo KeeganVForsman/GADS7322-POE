@@ -21,6 +21,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1/Generated World.unity
     guid: 646bdb1e125b37f46b6a794327b41273
   - enabled: 1
+    path: Assets/Scenes/Level 2/Level2.unity
+    guid: a08a53c5d4714f748982d2f7779be351
+  - enabled: 1
+    path: Assets/Scenes/Level 3/level3.unity
+    guid: b2baed6717cb69142b891f832d85f58d
+  - enabled: 1
+    path: Assets/Scenes/Win screen.unity
+    guid: b63837226b3b09440a10e4cbbbe8d7a0
+  - enabled: 1
     path: Assets/Scenes/Death.unity
     guid: 84ba998492342614cab91ad3bf9fc692
   - enabled: 1

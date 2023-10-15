@@ -10,11 +10,19 @@ public class Player_Move : MonoBehaviour
     float flipX;
     bool isMoving;
     public float speed;
+    public static Player_Move Instance;
+    public int HP;
 
-    
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
+        HP = 100;
+
         obstacleMask = LayerMask.GetMask("Wall", "Enemy");
         GFX = GetComponentInChildren<SpriteRenderer>().transform;
         flipX = GFX.localScale.x;

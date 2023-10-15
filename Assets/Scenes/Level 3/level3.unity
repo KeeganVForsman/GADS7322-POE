@@ -159,7 +159,7 @@ MonoBehaviour:
   floorPrefab: {fileID: 5457364876280762990, guid: 5b37f265089ae4c4c973a653ca208805, type: 3}
   wallPrefab: {fileID: 7515452808606145742, guid: 85e76794b435f5e4aae6c44700b8f9d0, type: 3}
   tilePrefab: {fileID: 2181985133992815011, guid: 9e6d46885e623624683522004e3c5b7f, type: 3}
-  exitPrefab: {fileID: 3745283664331189015, guid: 327dcd57693ebfb4887750a0b9216b56, type: 3}
+  exitPrefab: {fileID: 3745283664331189015, guid: 818e0b621ef234b4d9032061a576c988, type: 3}
   RandomItems:
   - {fileID: 1056324548450207383, guid: c02630dde2240a94387f5c0a10da8ebc, type: 3}
   - {fileID: 1562045117635681885, guid: 628f039854d7c8f4bbd0cb2c5ae0713f, type: 3}
@@ -169,7 +169,7 @@ MonoBehaviour:
   - {fileID: 6507989301551564752, guid: 9a339bde08e922b4da43e5146ca14513, type: 3}
   itemSpawnChance: 31
   monSpawnChance: 18
-  totalFloorCount: 2000
+  totalFloorCount: 20
 --- !u!4 &528631758
 Transform:
   m_ObjectHideFlags: 0

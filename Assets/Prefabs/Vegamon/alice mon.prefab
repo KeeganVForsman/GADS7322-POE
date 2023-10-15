@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6507989301551564753}
   - component: {fileID: 4284632973348799484}
   - component: {fileID: 3073826723133562190}
-  - component: {fileID: 9118254447220607423}
   m_Layer: 6
   m_Name: alice mon
   m_TagString: Enemy
@@ -128,17 +127,5 @@ MonoBehaviour:
   chaseSpeed: 1
   patrolinterval: {x: 1, y: 4}
   alertRange: 5
-  dmgRange: {x: 0, y: 0}
---- !u!114 &9118254447220607423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6507989301551564752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea9a9275204853c4fb153ed54b2d3924, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 10
+  damagedealt: 5
+  playerhealth: 100

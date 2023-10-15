@@ -7,12 +7,12 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(4);
     }
 
     public void PlayStory()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void ToTutorial()
@@ -22,7 +22,7 @@ public class MainMenu : MonoBehaviour
 
     public void ToOptions()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void QuitGame()
@@ -38,7 +38,7 @@ public class MainMenu : MonoBehaviour
 
     public void ToCredits()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(9);
 
     }
 

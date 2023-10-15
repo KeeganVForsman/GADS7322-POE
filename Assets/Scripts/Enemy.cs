@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Enemy : MonoBehaviour
 {
@@ -10,7 +12,9 @@ public class Enemy : MonoBehaviour
     public Vector2 patrolinterval;
     Player_Move player;
     public float alertRange;
-    public Vector2 dmgRange;
+    public int damagedealt;
+    public int playerhealth = 100;
+    //public TextMeshProUGUI HP;
 
     LayerMask obstacleMask, walkableMask;
     Vector2 curPos;
@@ -73,18 +77,29 @@ public class Enemy : MonoBehaviour
         StartCoroutine(MoveEnemy(Random.Range(patrolinterval.x, patrolinterval.y)));
     }
 
+    public void TakeDamage()
+    {
+        Player_Move.Instance.HP -= damagedealt;
+        //playerhealth -= damagedealt;
+
+        if (playerhealth <= damagedealt)
+        {
+            SceneManager.LoadScene(8);
+        }
+        else
+        {
+            return;
+        }
+    }
+
     void Attack()
     {
-        int roll = Random.Range(0, 100);
-        if (roll > 50)
-        {
-            float dmg = Mathf.Ceil(Random.Range(0, 100));
-            Debug.Log(name + "attacked and hit for " + dmg);
-        }
-        else 
-        {
-            Debug.Log(name + "attack missed");
-        }
+        TakeDamage();
+
+
+        
+
+
     }
 
     IEnumerator MoveEnemy(float speed)

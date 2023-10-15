@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1656012213659966839}
   - component: {fileID: 2507511536563308540}
   - component: {fileID: 2024396631956230548}
-  - component: {fileID: -5906676633078150567}
   m_Layer: 6
   m_Name: homesprite2-removebg-preview
   m_TagString: Enemy
@@ -128,17 +127,5 @@ MonoBehaviour:
   chaseSpeed: 1
   patrolinterval: {x: 1, y: 4}
   alertRange: 5
-  dmgRange: {x: 0, y: 0}
---- !u!114 &-5906676633078150567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656012213659966836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea9a9275204853c4fb153ed54b2d3924, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 10
+  damagedealt: 5
+  playerhealth: 100
