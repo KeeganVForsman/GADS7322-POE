@@ -11,7 +11,7 @@ public class Player_Move : MonoBehaviour
     bool isMoving;
     public float speed;
     public static Player_Move Instance;
-    public int HP;
+    public int HP = 100;
 
 
     private void Awake()

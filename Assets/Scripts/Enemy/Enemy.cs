@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
     Player_Move player;
     public float alertRange;
     public int damagedealt;
-    public int playerhealth = 100;
+    public int playerhealth;
     //public TextMeshProUGUI HP;
 
     LayerMask obstacleMask, walkableMask;
@@ -82,14 +82,14 @@ public class Enemy : MonoBehaviour
         Player_Move.Instance.HP -= damagedealt;
         //playerhealth -= damagedealt;
 
-        if (playerhealth <= damagedealt)
+        if (Player_Move.Instance.HP <= 0)
         {
             SceneManager.LoadScene(8);
         }
-        else
-        {
-            return;
-        }
+        //else
+        //{
+        //    return;
+        //}
     }
 
     void Attack()
