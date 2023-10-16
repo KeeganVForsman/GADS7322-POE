@@ -479,7 +479,7 @@ GameObject:
   - component: {fileID: 1341961379}
   - component: {fileID: 1341961378}
   m_Layer: 5
-  m_Name: HP (1)
+  m_Name: dmg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -525,7 +525,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hero Strength: '
+  m_text: 'Hero Strength: Exhausted'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -758,7 +758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3445331001442851636, guid: 1ba92ef5d362e074ea777d1696e88655, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 3445331002172432074, guid: 1ba92ef5d362e074ea777d1696e88655, type: 3}
       propertyPath: m_LocalPosition.x
