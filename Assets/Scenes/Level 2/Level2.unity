@@ -164,9 +164,9 @@ MonoBehaviour:
   - {fileID: 1056324548450207383, guid: c02630dde2240a94387f5c0a10da8ebc, type: 3}
   - {fileID: 1562045117635681885, guid: 628f039854d7c8f4bbd0cb2c5ae0713f, type: 3}
   RandomMons:
-  - {fileID: 1656012213659966836, guid: ba27b58c62cefc64a883ae31be822c70, type: 3}
-  - {fileID: 2719130841007960995, guid: 7de79240459cc8848bfefc3f49468bb3, type: 3}
-  - {fileID: 6507989301551564752, guid: 9a339bde08e922b4da43e5146ca14513, type: 3}
+  - {fileID: 6507989301551564752, guid: 7e86e643cc5828642b25fd996b24e8ef, type: 3}
+  - {fileID: 2719130841007960995, guid: 550f19aef566ccf4795aa2891b0eb11f, type: 3}
+  - {fileID: 1656012213659966836, guid: 52ef57ceed3b85d4ea6eb583145c01ee, type: 3}
   itemSpawnChance: 31
   monSpawnChance: 18
   totalFloorCount: 20
