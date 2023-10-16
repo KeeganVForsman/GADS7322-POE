@@ -199,8 +199,8 @@ MonoBehaviour:
   tilePrefab: {fileID: 2181985133992815011, guid: 9e6d46885e623624683522004e3c5b7f, type: 3}
   exitPrefab: {fileID: 3745283664331189015, guid: f14cab9d628e5df4f9a2e5c6c3f4198d, type: 3}
   RandomItems:
-  - {fileID: 1056324548450207383, guid: c02630dde2240a94387f5c0a10da8ebc, type: 3}
-  - {fileID: 1562045117635681885, guid: 628f039854d7c8f4bbd0cb2c5ae0713f, type: 3}
+  - {fileID: 1056324548450207383, guid: 0b0f423dba2711743b27971dde1935a1, type: 3}
+  - {fileID: 1562045117635681885, guid: 1397d53a6634c8244bc9e1fb91825f56, type: 3}
   RandomMons:
   - {fileID: 6507989301551564752, guid: 7e86e643cc5828642b25fd996b24e8ef, type: 3}
   - {fileID: 2719130841007960995, guid: 550f19aef566ccf4795aa2891b0eb11f, type: 3}
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotTimer: 0.8
-  playerShot: {fileID: 6998994377692339215, guid: 98b33049dcd9ca74f86d97bebd81f733, type: 3}
+  playerShot: {fileID: 6998994377692339215, guid: cdf78742d0468d94691716b20663de81, type: 3}
   shotParent: {fileID: 704382951}
 --- !u!114 &704382953
 MonoBehaviour:
@@ -404,7 +404,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 3319ffb168aefaa45810716a88ecfa73, type: 2}
-  m_audioClip: {fileID: 8300000, guid: e630f4102db337e49870130bd49467c7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 53c3eade09daa13408598134da60a209, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.039
   m_Pitch: 1

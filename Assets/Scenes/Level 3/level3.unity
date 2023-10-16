@@ -263,15 +263,15 @@ MonoBehaviour:
   tilePrefab: {fileID: 2181985133992815011, guid: 9e6d46885e623624683522004e3c5b7f, type: 3}
   exitPrefab: {fileID: 3745283664331189015, guid: 818e0b621ef234b4d9032061a576c988, type: 3}
   RandomItems:
-  - {fileID: 1056324548450207383, guid: c02630dde2240a94387f5c0a10da8ebc, type: 3}
-  - {fileID: 1562045117635681885, guid: 628f039854d7c8f4bbd0cb2c5ae0713f, type: 3}
+  - {fileID: 1056324548450207383, guid: a09a3bac94674a1429ffb19f1b122a71, type: 3}
+  - {fileID: 1562045117635681885, guid: 4e410ea493e45e3449dc244589c8ed4a, type: 3}
   RandomMons:
   - {fileID: 6507989301551564752, guid: 54f634c4b8dfb7a4a80cc002861024f1, type: 3}
   - {fileID: 2719130841007960995, guid: d8e32d72298fe3d45b41856aeda7fbb1, type: 3}
   - {fileID: 1656012213659966836, guid: 3736b191e19ea0a4783ea00704e92017, type: 3}
   itemSpawnChance: 31
   monSpawnChance: 18
-  totalFloorCount: 20
+  totalFloorCount: 150
 --- !u!4 &528631758
 Transform:
   m_ObjectHideFlags: 0
@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotTimer: 1
-  playerShot: {fileID: 6998994377692339215, guid: 98b33049dcd9ca74f86d97bebd81f733, type: 3}
+  playerShot: {fileID: 6998994377692339215, guid: 3104b898e19792c43863f5985611e715, type: 3}
   shotParent: {fileID: 704382951}
 --- !u!114 &704382953
 MonoBehaviour:
