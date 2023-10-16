@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a8de98bb12317c4ebed3e7f5cbc03f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 1.5
   HP: 0
 --- !u!4 &704382951 stripped
 Transform:
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf5c855b4570c43429de1444792947f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotTimer: 0.4
+  shotTimer: 1
   playerShot: {fileID: 6998994377692339215, guid: 98b33049dcd9ca74f86d97bebd81f733, type: 3}
   shotParent: {fileID: 704382951}
 --- !u!114 &704382953
@@ -365,7 +365,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 3319ffb168aefaa45810716a88ecfa73, type: 2}
-  m_audioClip: {fileID: 8300000, guid: e630f4102db337e49870130bd49467c7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: acb171a41f937e04d9984e4613500e73, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.039
   m_Pitch: 1
